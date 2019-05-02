@@ -4,7 +4,7 @@ import Page2 from './Page2.js';
 import Page3 from './Page3.js';
 import Page4 from './Page4.js';
 import Page5 from './Page5.js';
-import Page6 from './Page6.js';
+
 
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 import './App.css';
@@ -245,7 +245,7 @@ function App() {
           <Route path="/Page2/" component={Page2} />
           <Route path="/Page4/" component={Page4} />
           <Route path="/Page5/" component={Page5} />
-          <Route path="/Page6/" component={Page6} />
+          
         </div>
       </Router>
     </div>
