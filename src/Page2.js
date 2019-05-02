@@ -86,7 +86,7 @@ class Page2 extends Component {
     />
   </Card>,
 
-  <Button onClick={success}  type="primary" htmlType="submit"><Link to='/Page6/'>Pick</ Link></Button>
+  <Button onClick={success}  type="primary" htmlType="submit"><Link to='/Page5/'>Pick</ Link></Button>
 </div>
 </div>
 
