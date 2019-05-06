@@ -181,10 +181,11 @@ class Page4 extends Component {
     <Button type="primary" onClick={openNotification2}>172-****-1130</Button>
     </Panel>
     <Panel header="Worker information " key="4">
-      <p>Name: Jake</p>
-      <p>Ranking: 4.6</p>
-      <p>Contact: 137-****-7890</p>
-      <p>Distance: 1200m away from you</p> 
+
+      <p>Name: Crystal</p>
+      <p>Ranking: 4.8</p>
+      <p>Contact: 135-****-1515</p>
+      <p>Distance: 1500m away from you</p> 
     </Panel>
   </Collapse>
 

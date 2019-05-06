@@ -6,13 +6,14 @@ import Page4 from './Page4.js';
 import Page5 from './Page5.js';
 
 
+
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 import './App.css';
 // import { Cascader, Button,DatePicker,Input, Upload,  Icon} from 'antd';
 import {
   Form, Select,  Input,
   Slider, Button, Upload, Icon,
-  Row, Col,DatePicker,Cascader,message
+  Row, Col,DatePicker,Cascader,message,PageHeader
 } from 'antd';
 
 
@@ -53,8 +54,10 @@ class Demo extends React.Component {
     };
     
     return (
+ 
+    
       <Form {...formItemLayout} onSubmit={this.handleSubmit}>
-       
+       <div className="title"><h1>FIXER</h1></div>
 
         <Form.Item
           label="Category[multiple]"
@@ -65,9 +68,12 @@ class Demo extends React.Component {
             ],
           })(
             <Select mode="multiple" placeholder="Please select the problem category!">
-              <Option value="type1">tpye1</Option>
-              <Option value="type2">type2</Option>
-              <Option value="type3">type3</Option>
+              <Option value="type1">Electric appliances</Option>
+              <Option value="type2">lighting</Option>
+              <Option value="type3">Kitchen appliances</Option>
+              <Option value="type3">Locks</Option>
+              <Option value="type3">Flooring</Option>
+              
             </Select>
           )}
         </Form.Item>
@@ -236,7 +242,12 @@ function onOk(value) {
 
 function App() {
   return (
+
     <div className="App">
+   
+    
+    
+
       <Router>
         <div>
 
@@ -245,7 +256,9 @@ function App() {
           <Route path="/Page2/" component={Page2} />
           <Route path="/Page4/" component={Page4} />
           <Route path="/Page5/" component={Page5} />
-          
+
+          <Route path="/Page6/" component={Page6} />
+        
         </div>
       </Router>
     </div>

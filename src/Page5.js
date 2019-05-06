@@ -124,7 +124,7 @@ class Page5 extends Component {
     const openNotification1 = () => {
       notification.open({
         message: 'Notification Title',
-        description: 'You are calling Rena.',
+        description: 'You are calling Jake.',
         onClick: () => {
           console.log('Notification Clicked!');
         },
@@ -183,8 +183,8 @@ class Page5 extends Component {
     <Panel header="Worker information " key="4">
       <p>Name: Rena</p>
       <p>Ranking: 4.5</p>
-      <p>Contact: 159-****-0808</p>
-      <p>Distance: 2000m away from you</p> 
+      <p>Contact:  159-****-0808</p>
+      <p>Distance: 700m away from you</p> 
     </Panel>
   </Collapse>
 
